@@ -27,3 +27,8 @@ mkdocstrings-python = "^0.9.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+test = { cmd = "pytest", help = "run all unit tests with pytest and generate a coverage report" }
+format = { cmd = "blue . && isort .", help = "formats and sorts the dependencies using blue and isort" }
+docs = { cmd = "mkdocs serve", help = "build and serve the documentation using the mkdocs CLI tool" }
