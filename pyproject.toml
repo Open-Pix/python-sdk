@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "python-sdk"
+version = "0.1.0"
+description = "SDK for integration with the Woovi API"
+authors = [
+    "Camilo Cunha de Azevedo <camilotk@gmail.com>",
+    "woovi <developers@woovi.com>"
+]
+license = "MPL-2.0"
+readme = "README.md"
+packages = [{include = "python_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pytest-cov = "^4.0.0"
+blue = "^0.9.1"
+isort = "^5.12.0"
+taskipy = "^1.10.4"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.1.9"
+mkdocstrings = "^0.21.2"
+mkdocstrings-python = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+test = { cmd = "pytest", help = "run all unit tests with pytest and generate a coverage report" }
+format = { cmd = "blue . && isort .", help = "formats and sorts the dependencies using blue and isort" }
+docs = { cmd = "mkdocs serve", help = "build and serve the documentation using the mkdocs CLI tool" }
