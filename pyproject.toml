@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-sdk"
+version = "0.1.0"
+description = "SDK for integration with the Woovi API"
+authors = ["Camilo Cunha de Azevedo <camilotk@gmail.com>"]
+license = "MPL-2.0"
+readme = "README.md"
+packages = [{include = "python_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
