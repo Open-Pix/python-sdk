@@ -1,0 +1,45 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# IDE files
+.vscode/
+.idea/
+
+# git files
+.git/
+.gitignore
+.gitattributes
+
+# PyPi files
+*.egg-info/
+dist/
+build/
+
+# Poetry files
+poetry.lock
+
+# pipx files
+~/.local/bin/
+~/.local/share/pipx/
+
+# Ignore global .gitignore files
+!.gitignore
