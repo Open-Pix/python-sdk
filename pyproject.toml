@@ -2,7 +2,10 @@
 name = "python-sdk"
 version = "0.1.0"
 description = "SDK for integration with the Woovi API"
-authors = ["Camilo Cunha de Azevedo <camilotk@gmail.com>"]
+authors = [
+    "Camilo Cunha de Azevedo <camilotk@gmail.com>",
+    "woovi <developers@woovi.com>"
+]
 license = "MPL-2.0"
 readme = "README.md"
 packages = [{include = "python_sdk"}]
