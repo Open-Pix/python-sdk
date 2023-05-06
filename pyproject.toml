@@ -11,6 +11,9 @@ packages = [{include = "python_sdk"}]
 python = "^3.10"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
