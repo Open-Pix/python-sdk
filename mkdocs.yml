@@ -1,0 +1,8 @@
+site_name: Python SDK
+repo_url: https://github.com/Open-Pix/python-sdk
+repo_name: Open-Pix/python-sdk
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
