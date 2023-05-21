@@ -1,3 +1,4 @@
+![Open Pix Logo](assets/color-open-pix.png){width=500}
 # Open Pix Python SDK
 
 Welcome to the Woovi Python SDK! This SDK provides convenient access to the Woovi REST API, allowing you to easily integrate Woovi's video upload and management services into your Python applications.
