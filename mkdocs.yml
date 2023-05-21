@@ -8,3 +8,6 @@ theme:
   language: pt-BR
   logo: assets/open-pix.png
   favicon: assets/icon.png
+
+markdown_extensions:
+  - attr_list
