@@ -1,17 +1,51 @@
-# Welcome to MkDocs
+---
+title: Open Pix Documentation Home
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Open Pix Logo](assets/color-open-pix.png){width=500 .center .mb-25}
+# Open Pix Python SDK
 
-## Commands
+Welcome to the Woovi Python SDK! This SDK provides convenient access to the Woovi REST API, allowing you to easily integrate Woovi's video upload and management services into your Python applications.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Contributing
+We welcome contributions to the Woovi Python SDK! If you would like to contribute, please follow these steps:
 
-## Project layout
+- Fork the repository
+- Create a new branch for your feature or bug fix
+- Write your code and tests
+- Commit your changes and push your branch to GitHub
+- Submit a pull request
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Please make sure to adhere to the [code of conduct](#code-of-conduct).
+
+## Code of Conduct
+Our Pledge
+We pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+Our Standards
+Examples of behavior that contributes to creating a positive environment include:
+
+Using welcoming and inclusive language
+Being respectful of differing viewpoints and experiences
+Gracefully accepting constructive criticism
+Focusing on what is best for the community
+Showing empathy towards other community members
+Examples of unacceptable behavior by participants include:
+
+The use of sexualized language or imagery and unwelcome sexual attention or advances
+Trolling, insulting/derogatory comments, and personal or political attacks
+Public or private harassment
+Publishing others' private information, such as a physical or electronic address, without explicit permission
+Other conduct which could reasonably be considered inappropriate in a professional setting
+Our Responsibilities
+As project maintainers, we are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+
+As contributors, you have the responsibility to adhere to these standards and report any instances of unacceptable behavior.
+
+Enforcement
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project team at <developers@woovi.com>. The project team will review and investigate all complaints and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+
+Project maintainers who do not follow or enforce the code of conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+
+Attribution
+This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4.
